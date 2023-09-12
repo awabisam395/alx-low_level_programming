@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - main function
- *
- * Return: always 0
-*/
-int main(void)
-{
-	int i;
-	char j;
+ * print_alphabet_x10 - Print lowercase alphabet 10 times
+ */
 
-	for (i = 0; i < 10; i++)
+void print_alphabet_x10(void)
+{
+	char num, letter;
+
+	for (num = 0; num <= 9; num++)
 	{
-		for (j = 'a'; j <= 'z'; j++)
+		for (letter = 'a'; letter <= 'z'; letter++)
 		{
-			putchar(j);
+			_putchar(letter);
 		}
-	putchar('\n');
+		_putchar('\n');
 	}
-	return (0);
 }
