@@ -1,18 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
- * main - main function
- *
- * Return: always 0
- *
+ * print_alphabet - Entry point
+ * Return:0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char i;
+	char c = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-	putchar('\n');
-	return (0);
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
+
