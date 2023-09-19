@@ -14,8 +14,6 @@ void print_rev(char *s)
 	{
 		longx++;
 		s++;
-	
-		s--;
 	}
 	for (o = longx; o > 0; o--)
 	{
