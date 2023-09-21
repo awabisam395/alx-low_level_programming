@@ -7,7 +7,7 @@
  * @n: input val
  * Return: dest
  */
-char *_strncat(char *dest, char *src, int  *n)
+char *_strncat(char *dest, char *src, int  n)
 {
 	int r;
 	int s;
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int  *n)
 		r++;
 	}
 	s = 0;
-	while (r < n && src[s] != '\0')
+	while (s < n && src[s] != '\0')
 	{
 		dest[r] = src[s];
 		r++;
