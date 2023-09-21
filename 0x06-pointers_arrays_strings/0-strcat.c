@@ -5,7 +5,7 @@
  * @src: input val
  * Return: void
  */
-chat_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int m;
 	int n;
