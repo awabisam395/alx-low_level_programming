@@ -1,1 +1,1 @@
-Firsr C task.
+0x9-static_libraries
